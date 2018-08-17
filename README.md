@@ -6,18 +6,20 @@ Gulp / Pug / SCSS / ES6 / Webmanifest
 
 ## Usage
 
+### Quick Start
+
 ```bash
 yarn install
 gulp
 ```
 
-## Release
+### Release
 
 ```bash
 gulp release
 ```
 
-## Deploy
+### Deploy
 
 ### GitHub
 
@@ -25,11 +27,7 @@ gulp release
 npm run deploy-github
 ```
 
-### GitLab
-
-Automatically deployed to GitLab Pages.
-
-## Generate Blank Pages
+### Generate Blank Pages
 
 ```bash
 gulp create-blank-pages
