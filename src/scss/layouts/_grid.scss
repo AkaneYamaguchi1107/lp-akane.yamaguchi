@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -37px;
+}
+.col {
+  width: 25%;
+  padding: 37px;
+  box-sizing: border-box;
+  @include sp {
+  width: 100%;
+  }
+}

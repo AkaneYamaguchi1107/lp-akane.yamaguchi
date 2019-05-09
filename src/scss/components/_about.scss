@@ -1,0 +1,25 @@
+.about-item {
+  text-align: center;
+  &__icon {
+    border-radius: 50%;
+    width: 182px;
+    height: 182px;
+    background: rgba(#87949e, .15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 86px;
+    &:hover {
+      background: #17daa3;
+    }
+  }
+  &__title {
+    font-size: 30px;
+    margin-bottom: 45px;
+    color: #000000;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
