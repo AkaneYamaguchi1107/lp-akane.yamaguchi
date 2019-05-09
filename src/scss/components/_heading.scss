@@ -1,9 +1,10 @@
-.heading {
+.heading-item {
+  text-align: center;
+  &__title {
   font-size: 60px;
   font-weight: lighter;
-  font-family: "Raleway";
   color: #576671;
-  text-align: center;
+  margin-bottom: 40px;
   &:after {
     content: '';
     display: block;
@@ -12,12 +13,10 @@
     width: 30px;
     background-color: #17daa3;
     margin-top: 40px;
-    margin-bottom: 40px;
   }
 }
-.heading-text {
+  &__text {
   font-size: 18px;
-  font-family: "Proxima Nova";
   color: #b9c0c6;
-  text-align: center;
+  }
 }
