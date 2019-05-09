@@ -1,20 +1,20 @@
 .heading-item {
   text-align: center;
   &__title {
-  font-size: 60px;
-  font-weight: lighter;
-  color: #576671;
-  margin-bottom: 40px;
-  &:after {
-    content: '';
-    display: block;
-    margin: 0 auto;
-    height: 1px;
-    width: 30px;
-    background-color: #17daa3;
-    margin-top: 40px;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #576671;
+    margin-bottom: 40px;
+    &:after {
+      content: '';
+      display: block;
+      margin: 0 auto;
+      height: 1px;
+      width: 30px;
+      background-color: #17daa3;
+      margin-top: 40px;
+    }
   }
-}
   &__text {
   font-size: 18px;
   color: #b9c0c6;
