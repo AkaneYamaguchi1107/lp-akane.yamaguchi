@@ -2,9 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   margin: -37px;
-  &--align-right {
-    justify-content: flex-end;
-  }
 }
 .col {
   width: 25%;
@@ -14,3 +11,18 @@
   width: 100%;
   }
 }
+.photo-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  &--align-right {
+    justify-content: flex-end;
+  }
+}
+.photo-section .col {
+  width:50%;
+  box-sizing: border-box;
+  @include sp {
+  width: 100%;
+  }
+}
+
