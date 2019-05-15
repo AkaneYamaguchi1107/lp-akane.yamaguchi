@@ -2,27 +2,18 @@
   display: flex;
   flex-wrap: wrap;
   margin: -37px;
+  &--align-right {
+    justify-content: flex-end;
+  }
 }
 .col {
   width: 25%;
   padding: 37px;
   box-sizing: border-box;
+  &--6 {
+    width: 50%;
+  }
   @include sp {
   width: 100%;
   }
 }
-.photo-section .row {
-  display: flex;
-  flex-wrap: wrap;
-  &--align-right {
-    justify-content: flex-end;
-  }
-}
-.photo-section .col {
-  width:50%;
-  box-sizing: border-box;
-  @include sp {
-  width: 100%;
-  }
-}
-

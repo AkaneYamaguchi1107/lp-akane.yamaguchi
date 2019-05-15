@@ -3,15 +3,15 @@
     color: white;
   }
   &__title {
-  font-size: 60px;
-  line-height: 96px;
-  letter-spacing: 0.025;
-  margin-bottom: 72px;
-  @include sp {
-    font-size: 20px;
-    margin-bottom: 38px;
-    line-height: 48px;
-  }
+    font-size: 60px;
+    line-height: 96px;
+    letter-spacing: 0.025;
+    margin-bottom: 72px;
+    @include sp {
+      font-size: 20px;
+      margin-bottom: 38px;
+      line-height: 48px;
+    }
   }
   &__text {
     font-size: 18px;
