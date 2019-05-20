@@ -1,0 +1,28 @@
+.unit-1 {
+  &--white {
+    color: white;
+  }
+  &__title {
+    font-size: 60px;
+    line-height: 96px;
+    letter-spacing: 0.025;
+    margin-bottom: 72px;
+    @include sp {
+      font-size: 20px;
+      margin-bottom: 38px;
+      line-height: 48px;
+    }
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.025;
+    margin-bottom: 74px;
+    @include sp {
+      font-size: 9px;
+      line-height: 18px;
+      margin-bottom: 28px;
+    }
+  }
+}
+
