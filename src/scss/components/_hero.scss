@@ -1,0 +1,77 @@
+.hero-photo {
+  background: url('/imgs/hero-bg.png') center/cover;;
+  overflow: hidden;
+  min-height: 1070px;
+  display: flex;
+  align-items: center;
+  //max-width: 100%;
+  //height: auto;
+  @include sp {
+    //text-align: center;
+    min-height: 535px;
+    //max-width: 100%;
+  }
+}
+
+.hero-item {
+  text-align: center;
+  &__title {
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 0.025;
+    line-height: 60px;
+    margin-bottom: 32px;
+    @include sp {
+      width: 100%;
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  &__text {
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0.025;
+    line-height: 60px;
+    margin-bottom: 64px;
+    @include sp {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+  }
+  .btn--transparent {
+    margin-bottom: 72px;
+  }
+}
+.hero-scroll {
+  position: relative;
+  top: 267px;
+  text-align: center;
+  scroll-behavior: smooth;
+  @include sp {
+    text-align: center;
+  }
+}
+
+.ityped-cursor {
+  font-size: 2.2rem;
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
