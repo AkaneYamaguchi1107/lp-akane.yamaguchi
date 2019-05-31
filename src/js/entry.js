@@ -8,8 +8,10 @@ $('.js-carousel').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 8000,
+  nextArrow: '.carousel__arrow--next',
+  prevArrow: '.carousel__arrow--prev',
+  dotsClass: 'carousel__dots'
 });
-
 import { init } from 'ityped';
 
 init(`#ityped`, {
@@ -31,4 +33,18 @@ init(`#ityped`, {
     cursorChar: "|", //default
     //カーソルの形状
     onFinished: function(){}
+});
+$('a[href^=#]').click(function(){
+  //デフォルトのイベントをキャンセル
+  event.preventDefault();
+
+  // 移動先となる要素を取得します。
+  var target = $(this.hash);
+  if (!target.length) return;
+
+  // 移動先の位置を取得します
+  var targetY = target.offset().top;
+
+  // animateで移動します
+  $('body').animate({scrollTop: targetY}, 1000, 'swing');
 });
