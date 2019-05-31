@@ -1,3 +1,10 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  @include sp {
+    min-height: 2400px;
+  }
+}
 .about-item {
   text-align: center;
   &__icon {
@@ -9,6 +16,9 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto 86px;
+    @include sp {
+      margin-bottom: 40px;
+    }
     &:hover {
       background: #17daa3;
     }
@@ -17,9 +27,29 @@
     font-size: 30px;
     margin-bottom: 45px;
     color: #000000;
+    @include sp {
+      margin-bottom: 45px;
+    }
   }
   &__text {
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 120px;
+    @include sp {
+      margin-bottom: 80px;
+    }
+  }
+}
+.heading-item__text {
+  margin-bottom: 100px;
+  @include sp {
+    margin-bottom: 86px;
+  }
+}
+.btn-wrapper {
+  text-align: center;
+  margin-bottom: 156px;
+  @include sp {
+    margin-bottom: 214px;
   }
 }

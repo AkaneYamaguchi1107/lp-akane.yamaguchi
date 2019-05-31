@@ -5,6 +5,9 @@
     font-weight: lighter;
     color: #576671;
     margin-bottom: 40px;
+    @include sp {
+      font-size: 40px;
+    }
     &:after {
       content: '';
       display: block;
