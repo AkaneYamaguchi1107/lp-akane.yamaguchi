@@ -1,0 +1,58 @@
+.opinions-photo {
+  background: url('/imgs/opinions-bg.png') center/cover;
+  overflow: hidden;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  // margin-bottom: 114px;
+  // @include sp {
+  //   text-align: center;
+  //   margin-bottom: 85px;
+  // }
+}
+.opinions-item {
+  text-align: center;
+  &__icon {
+    display: inline-block;
+    margin-bottom: 40px;
+    @include sp {
+      margin-bottom: 33px;
+    }
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 96px;
+    letter-spacing: 0.025;
+    @include sp {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 11px;
+    }
+  }
+  &__text {
+    margin-bottom: 126px;
+    color: #777777;
+    @include sp {
+      margin-bottom: 140px;
+    }
+  }
+}
+.sp_br {
+  display: none;
+  @include sp {
+    display: inline-block;
+  }
+}
+.opinions__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.opinions__arrow--prev {
+  left: 16px;
+}
+.opinions__arrow--next {
+  right: 16px;
+}
