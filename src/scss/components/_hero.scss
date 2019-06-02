@@ -27,7 +27,6 @@
 
 .hero-item {
   text-align: center;
-  box-sizing: border-box;
   &__title {
     color: #ffffff;
     font-size: 60px;
@@ -66,7 +65,6 @@
   padding: 0;
   list-style: none;
   color: white;
-  margin-bottom: 200px;
 }
 .carousel__dots li {
   border: 2px solid white;

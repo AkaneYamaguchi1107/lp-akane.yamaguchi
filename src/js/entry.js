@@ -12,6 +12,17 @@ $('.js-carousel').slick({
   prevArrow: '.carousel__arrow--prev',
   dotsClass: 'carousel__dots'
 });
+$('.js-opinions-carousel').slick({
+  dots: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 8000,
+  nextArrow: '.opinions__arrow--next',
+  prevArrow: '.opinions__arrow--prev',
+  dotsClass: 'carousel__dots'
+});
+
 import { init } from 'ityped';
 
 init(`#ityped`, {
