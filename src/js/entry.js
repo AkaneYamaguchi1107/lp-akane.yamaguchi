@@ -59,3 +59,4 @@ $('a[href^=#]').click(function(){
   // animateで移動します
   $('body').animate({scrollTop: targetY}, 1000, 'swing');
 });
+

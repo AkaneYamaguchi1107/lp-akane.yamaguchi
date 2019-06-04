@@ -1,0 +1,31 @@
+.try-photo {
+  background: url('/imgs/try-bg.png') center/cover;
+  min-height: 760px;
+  display: flex;
+  align-items: center;
+  @include sp {
+    min-height: 530px;
+  }
+}
+.try-item {
+  text-align: center;
+  &__title {
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 100px;
+    @include sp {
+      font-size: 40px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.invisible {
+  transition: opacity 0.5s ease;
+  opacity: 0.0;
+}
+
+.visible {
+  transition: opacity 0.5s ease;
+  opacity: 1.0;
+}
