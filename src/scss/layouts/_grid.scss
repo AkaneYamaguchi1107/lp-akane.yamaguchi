@@ -1,19 +1,22 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: -37px;
+  margin: -39px;
   &--align-right {
     justify-content: flex-end;
   }
-  .col {
-    width: 25%;
-    padding: 37px;
-    box-sizing: border-box;
-    &--6 {
-      width: 50%;
-    }
-    @include sp {
-      width: 100%;
+}
+
+.col {
+  padding: 39px;
+  box-sizing: border-box;
+  @for $i from 1 through 12 {
+    &--#{$i} {
+      width: $i / 12 * 100%;
     }
   }
+  @include sp {
+    width: 100%;
+  }
 }
+

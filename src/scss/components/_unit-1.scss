@@ -1,4 +1,14 @@
 .unit-1 {
+  @include sp {
+    text-align: center;
+  }
+  &--mac {
+    position: relative;
+    bottom: 80px;
+    @include sp {
+      position: static;
+    }
+  }
   &--white {
     color: white;
   }
@@ -14,12 +24,9 @@
     }
   }
   &__text {
-    font-size: 18px;
     line-height: 36px;
-    letter-spacing: 0.025;
     margin-bottom: 74px;
     @include sp {
-      line-height: 18px;
       margin-bottom: 60px;
     }
   }
