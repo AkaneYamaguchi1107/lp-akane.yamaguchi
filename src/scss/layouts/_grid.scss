@@ -5,6 +5,11 @@
   &--align-right {
     justify-content: flex-end;
   }
+  &--map {
+    @include sp {
+      flex-direction: column-reverse;
+    }
+  }
 }
 
 .col {
