@@ -1,0 +1,19 @@
+.map-section {
+  overflow: hidden;
+  min-height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include sp {
+    min-height: 987px;
+  }
+}
+.map-item {
+  text-align: center;
+  img {
+    @include sp {
+      width: 550px;
+      margin-bottom: 70px;
+    }
+  }
+}
