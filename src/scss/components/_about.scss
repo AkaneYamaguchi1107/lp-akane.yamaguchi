@@ -1,6 +1,7 @@
 .about-section {
   display: flex;
   align-items: center;
+  min-height: 1092px;
   @include sp {
     min-height: 2400px;
   }
@@ -34,10 +35,6 @@
   &__text {
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 120px;
-    @include sp {
-      margin-bottom: 80px;
-    }
   }
 }
 .heading-item__text {
@@ -48,8 +45,8 @@
 }
 .btn-wrapper {
   text-align: center;
-  margin-bottom: 156px;
+  margin-top: 117px;
   @include sp {
-    margin-bottom: 214px;
+    margin-top: 78px;
   }
 }
