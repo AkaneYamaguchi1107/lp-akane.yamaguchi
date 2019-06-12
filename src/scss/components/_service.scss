@@ -1,0 +1,48 @@
+.service-section {
+  min-height: 1050px;
+  background: #f9f9fa;
+  display: flex;
+  align-items: center;
+  @include sp {
+    min-height: 2060px;
+  }
+}
+.service-item {
+  @include sp {
+    text-align: center;
+  }
+  &__icon {
+    background: #ffffff;
+    border-radius: 50%;
+    height: 94px;
+    width: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    position: relative;
+    bottom: -85px;
+    @include sp {
+      position: static;
+       margin: auto;
+    }
+  }
+  &__title {
+    color: #576671;
+    font-size: 60px;
+    line-height: 90px;
+    margin-left: 145px;
+    @include sp {
+      font-size: 40px;
+      margin: auto;
+    }
+  }
+  &__text {
+    line-height: 45px;
+    margin-left: 145px;
+    @include sp {
+      margin: auto;
+      margin-bottom: 50px;
+    }
+  }
+}
