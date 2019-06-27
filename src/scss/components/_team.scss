@@ -1,8 +1,9 @@
 .team-section {
-  min-height: 1165px;
   overflow: hidden;
+  padding-top: 110px;
   @include sp {
     min-height: 1600px;
+    padding-top: 135px;
   }
   &__photo {
     position: relative;
@@ -45,5 +46,4 @@
   width: 100%;
   max-width: 2000px;
   margin: auto;
-  padding-top: 110px;
 }
