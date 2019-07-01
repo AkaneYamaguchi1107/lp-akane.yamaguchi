@@ -1,5 +1,5 @@
 .hero-photo {
-  background: url('/imgs/hero-bg.png') center/cover;
+  background: url('./imgs/hero-bg.png') center/cover;
   overflow: hidden;
   min-height: 1070px;
   @include sp {

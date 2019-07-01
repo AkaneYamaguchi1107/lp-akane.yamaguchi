@@ -1,7 +1,7 @@
 .footer {
   min-height: 756px;
   padding-top: 79px;
-  background: url('/imgs/footer-bg.png') top no-repeat;
+  background: url('./imgs/footer-bg.png') top no-repeat;
   @include sp {
     min-height: 576px;
     padding-top: 47px;
@@ -20,7 +20,7 @@
     order:2;
   }
   &:before {
-    content: url('/imgs/footer-icon.png');
+    content: url('./imgs/footer-icon.png');
     padding-right: 20px;
     position: relative;
     top: 5px;
