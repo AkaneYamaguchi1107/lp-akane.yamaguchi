@@ -1,14 +1,9 @@
 .opinions-photo {
-  background: url('/imgs/opinions-bg.png') center/cover;
+  background: url('./imgs/opinions-bg.png') center/cover;
   overflow: hidden;
   min-height: 700px;
   display: flex;
   align-items: center;
-  // margin-bottom: 114px;
-  // @include sp {
-  //   text-align: center;
-  //   margin-bottom: 85px;
-  // }
 }
 .opinions-item {
   text-align: center;
