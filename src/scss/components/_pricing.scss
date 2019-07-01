@@ -10,10 +10,12 @@
 .pricing-item {
   position: relative;
   height: 587px;
-  width: 343px;
+  width: 340px;
   background: #ffffff;
   border-radius: 7px;
   overflow: hidden;
+  box-sizing: border-box;
+  max-width: 100%;
   @include sp {
     margin: auto;
   }
@@ -38,12 +40,12 @@
     color: #ffffff;
     width: 100%;
     padding-left: 40px;
-    letter-spacing: 5px;
+    letter-spacing: .025px;
     position: absolute;
     bottom: 0;
     text-decoration: none;
     img {
-      padding-left: 35px;
+      padding-left: 80px;
     }
   }
 }
