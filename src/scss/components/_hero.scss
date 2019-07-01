@@ -31,7 +31,7 @@
   &__title {
     color: #ffffff;
     font-size: 60px;
-    letter-spacing: 0.025;
+    letter-spacing: 0.025px;
     line-height: 60px;
     margin-bottom: 32px;
     @include sp {
@@ -42,7 +42,7 @@
   &__text {
     color: #ffffff;
     font-size: 24px;
-    letter-spacing: 0.025;
+    letter-spacing: 0.025px;
     line-height: 60px;
     margin-bottom: 64px;
     @include sp {
